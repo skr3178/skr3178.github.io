@@ -48,6 +48,505 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+    <tr onmouseout="action100m_stop()" onmouseover="action100m_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='action100m_image'><img src='https://raw.githubusercontent.com/skr3178/ACTION100M/main/action100m.jpg' width="160"></div>
+          <img src='https://raw.githubusercontent.com/skr3178/ACTION100M/main/action100m.jpg' width="160" onerror="this.style.display='none';">
+        </div>
+        <script type="text/javascript">
+          function action100m_start() {
+            document.getElementById('action100m_image').style.opacity = "1";
+          }
+
+          function action100m_stop() {
+            document.getElementById('action100m_image').style.opacity = "0";
+          }
+          action100m_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://github.com/skr3178/ACTION100M">
+          <span class="papertitle">ACTION100M</span>
+        </a>
+        <br>
+        <a href="https://github.com/skr3178/ACTION100M">GitHub Repository</a>
+        <p></p>
+        <p>
+          Implementation of the Action100M video processing pipeline for generating hierarchical video action annotations. Uses V-JEPA 2 for temporal segmentation and Qwen3-VL for caption generation.
+        </p>
+      </td>
+    </tr>
+
+    <tr onmouseout="autoresearch_stop()" onmouseover="autoresearch_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='autoresearch_image'><img src='https://raw.githubusercontent.com/skr3178/Autoresearch_Paper/master/progress.png' width="160"></div>
+          <img src='https://raw.githubusercontent.com/skr3178/Autoresearch_Paper/master/progress.png' width="160" onerror="this.style.display='none';">
+        </div>
+        <script type="text/javascript">
+          function autoresearch_start() { document.getElementById('autoresearch_image').style.opacity = "1"; }
+          function autoresearch_stop() { document.getElementById('autoresearch_image').style.opacity = "0"; }
+          autoresearch_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://github.com/skr3178/Autoresearch_Paper"><span class="papertitle">Autoresearch Paper</span></a>
+        <br><a href="https://github.com/skr3178/Autoresearch_Paper">GitHub Repository</a>
+        <p></p>
+        <p>Autonomous agent framework that implements research papers from PDF to working code. 6-phase pipeline: paper extraction, contract definition, data proof, component implementation, integration, and benchmarking.</p>
+      </td>
+    </tr>
+
+    <tr onmouseout="reconstruction_3d_stop()" onmouseover="reconstruction_3d_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='reconstruction_3d_image'><img src='https://raw.githubusercontent.com/skr3178/3D-Reconstruction-LingBot-World/master/Screenshot%202026-03-05%20at%205.38.41%E2%80%AFPM.png' width="160"></div>
+          <img src='https://raw.githubusercontent.com/skr3178/3D-Reconstruction-LingBot-World/master/Screenshot%202026-03-05%20at%205.38.41%E2%80%AFPM.png' width="160" onerror="this.style.display='none';">
+        </div>
+        <script type="text/javascript">
+          function reconstruction_3d_start() { document.getElementById('reconstruction_3d_image').style.opacity = "1"; }
+          function reconstruction_3d_stop() { document.getElementById('reconstruction_3d_image').style.opacity = "0"; }
+          reconstruction_3d_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://github.com/skr3178/3D-Reconstruction-LingBot-World"><span class="papertitle">3D Reconstruction - LingBot World</span></a>
+        <br><a href="https://github.com/skr3178/3D-Reconstruction-LingBot-World">GitHub Repository</a>
+        <p></p>
+        <p>Recreation of the 3D reconstruction pipeline from the LingBot world model paper. Generates detailed 3D point clouds from video sequences using VGGT.</p>
+      </td>
+    </tr>
+
+    <tr onmouseout="humanoid_twin_stop()" onmouseover="humanoid_twin_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='humanoid_twin_image'><img src='https://raw.githubusercontent.com/skr3178/humanoid-twin-world-model/master/assets/browser-split-screen-demo.gif' width="160"></div>
+          <img src='https://raw.githubusercontent.com/skr3178/humanoid-twin-world-model/master/assets/browser-split-screen-demo.gif' width="160" onerror="this.style.display='none';">
+        </div>
+        <script type="text/javascript">
+          function humanoid_twin_start() { document.getElementById('humanoid_twin_image').style.opacity = "1"; }
+          function humanoid_twin_stop() { document.getElementById('humanoid_twin_image').style.opacity = "0"; }
+          humanoid_twin_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://github.com/skr3178/humanoid-twin-world-model"><span class="papertitle">Humanoid Twin World Model</span></a>
+        <br><a href="https://github.com/skr3178/humanoid-twin-world-model">GitHub Repository</a>
+        <p></p>
+        <p>Digital twin of Unitree G1 humanoid robot in a 3D Gaussian Splatting scene. Browser-based split-screen viewer with keyboard control for humanoid locomotion in photorealistic environments.</p>
+      </td>
+    </tr>
+
+    <tr onmouseout="copilot4d_stop()" onmouseover="copilot4d_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='copilot4d_image'><img src='https://raw.githubusercontent.com/skr3178/copilot4D/main/assets/readme_images/comparison.gif' width="160"></div>
+          <img src='https://raw.githubusercontent.com/skr3178/copilot4D/main/assets/readme_images/comparison.gif' width="160" onerror="this.style.display='none';">
+        </div>
+        <script type="text/javascript">
+          function copilot4d_start() {
+            document.getElementById('copilot4d_image').style.opacity = "1";
+          }
+
+          function copilot4d_stop() {
+            document.getElementById('copilot4d_image').style.opacity = "0";
+          }
+          copilot4d_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://github.com/skr3178/copilot4d">
+          <span class="papertitle">Copilot4D</span>
+        </a>
+        <br>
+        <a href="https://github.com/skr3178/copilot4d">GitHub Repository</a>
+        <p></p>
+        <p>
+          Implementation of Copilot4D: Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion. A world model approach for self-driving vehicles.
+        </p>
+      </td>
+    </tr>
+
+    <tr onmouseout="topodiffuser_stop()" onmouseover="topodiffuser_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='topodiffuser_image'><img src='https://raw.githubusercontent.com/skr3178/TopoDiffuser/main/images/diffusion_trajectory.png' width="160"></div>
+          <img src='https://raw.githubusercontent.com/skr3178/TopoDiffuser/main/images/diffusion_trajectory.png' width="160" onerror="this.style.display='none';">
+        </div>
+        <script type="text/javascript">
+          function topodiffuser_start() { document.getElementById('topodiffuser_image').style.opacity = "1"; }
+          function topodiffuser_stop() { document.getElementById('topodiffuser_image').style.opacity = "0"; }
+          topodiffuser_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://github.com/skr3178/TopoDiffuser"><span class="papertitle">TopoDiffuser</span></a>
+        <br><a href="https://github.com/skr3178/TopoDiffuser">GitHub Repository</a>
+        <p></p>
+        <p>Diffusion-based trajectory prediction using LiDAR data. Trained on KITTI dataset with encoder and diffusion model for autonomous driving trajectory forecasting.</p>
+      </td>
+    </tr>
+
+    <tr onmouseout="dreamerv4_stop()" onmouseover="dreamerv4_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='dreamerv4_image'><img src='https://raw.githubusercontent.com/skr3178/DreamerV4/pretrained_tokenizer/videos/phase1_latest_comparisons/reconstruction_1.gif' width="160"></div>
+          <img src='https://raw.githubusercontent.com/skr3178/DreamerV4/pretrained_tokenizer/videos/phase1_latest_comparisons/reconstruction_1.gif' width="160" onerror="this.style.display='none';">
+        </div>
+        <script type="text/javascript">
+          function dreamerv4_start() { document.getElementById('dreamerv4_image').style.opacity = "1"; }
+          function dreamerv4_stop() { document.getElementById('dreamerv4_image').style.opacity = "0"; }
+          dreamerv4_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://github.com/skr3178/DreamerV4"><span class="papertitle">DreamerV4</span></a>
+        <br><a href="https://github.com/skr3178/DreamerV4">GitHub Repository</a>
+        <p></p>
+        <p>Implementation of DreamerV4: Training Agents Inside of Scalable World Models. World model architecture for reinforcement learning with video tokenizer and dynamics prediction.</p>
+      </td>
+    </tr>
+
+    <tr onmouseout="humanoid_world_model_stop()" onmouseover="humanoid_world_model_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='humanoid_world_model_image'><img src='https://raw.githubusercontent.com/skr3178/Humanoid_world_model/main/videos/debug_flowhwm_ckpt24000/sample_0/comparison.gif' width="160"></div>
+          <img src='https://raw.githubusercontent.com/skr3178/Humanoid_world_model/main/videos/debug_flowhwm_ckpt24000/sample_0/comparison.gif' width="160" onerror="this.style.display='none';">
+        </div>
+        <script type="text/javascript">
+          function humanoid_world_model_start() {
+            document.getElementById('humanoid_world_model_image').style.opacity = "1";
+          }
+
+          function humanoid_world_model_stop() {
+            document.getElementById('humanoid_world_model_image').style.opacity = "0";
+          }
+          humanoid_world_model_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://github.com/skr3178/Humanoid_world_model">
+          <span class="papertitle">Humanoid World Models</span>
+        </a>
+        <br>
+        <a href="https://github.com/skr3178/Humanoid_world_model">GitHub Repository</a>
+        <p></p>
+        <p>
+          Implementation of Humanoid World Models: Open World Foundation Models for Humanoid Robotics. Training world models for humanoid robot control and simulation.
+        </p>
+      </td>
+    </tr>
+
+    <tr onmouseout="genie_google_stop()" onmouseover="genie_google_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='genie_google_image'><img src='https://raw.githubusercontent.com/skr3178/Genie_google/main/evaluations/dynamics/long_video/dynamics_comparison_step_7000.gif' width="160"></div>
+          <img src='https://raw.githubusercontent.com/skr3178/Genie_google/main/evaluations/dynamics/long_video/dynamics_comparison_step_7000.gif' width="160" onerror="this.style.display='none';">
+        </div>
+        <script type="text/javascript">
+          function genie_google_start() { document.getElementById('genie_google_image').style.opacity = "1"; }
+          function genie_google_stop() { document.getElementById('genie_google_image').style.opacity = "0"; }
+          genie_google_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://github.com/skr3178/Genie_google"><span class="papertitle">Genie: Generative Interactive Environments</span></a>
+        <br><a href="https://github.com/skr3178/Genie_google">GitHub Repository</a>
+        <p></p>
+        <p>Implementation of Genie world model - a generative video model that learns latent actions from unlabeled video data. Includes video tokenizer, latent action model, and dynamics model.</p>
+      </td>
+    </tr>
+
+    <tr onmouseout="piano_stop()" onmouseover="piano_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='piano_image'><img src='https://raw.githubusercontent.com/skr3178/piano/main/midi_playback_20251109_152152.gif' width="160"></div>
+          <img src='https://raw.githubusercontent.com/skr3178/piano/main/midi_playback_20251109_152152.gif' width="160" onerror="this.style.display='none';">
+        </div>
+        <script type="text/javascript">
+          function piano_start() { document.getElementById('piano_image').style.opacity = "1"; }
+          function piano_stop() { document.getElementById('piano_image').style.opacity = "0"; }
+          piano_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://github.com/skr3178/piano"><span class="papertitle">Piano - RoboPianist in Isaac Sim</span></a>
+        <br><a href="https://github.com/skr3178/piano">GitHub Repository</a>
+        <p></p>
+        <p>Robotic piano playing simulation in NVIDIA Isaac Sim with dexterous hands. Features MIDI playback, collision handling, and reinforcement learning for piano performance.</p>
+      </td>
+    </tr>
+
+    <tr onmouseout="flow_matching_stop()" onmouseover="flow_matching_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='flow_matching_image'><img src='https://colab.research.google.com/assets/colab-badge.svg' width="160"></div>
+          <img src='https://colab.research.google.com/assets/colab-badge.svg' width="160" onerror="this.style.display='none';">
+        </div>
+        <script type="text/javascript">
+          function flow_matching_start() { document.getElementById('flow_matching_image').style.opacity = "1"; }
+          function flow_matching_stop() { document.getElementById('flow_matching_image').style.opacity = "0"; }
+          flow_matching_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://github.com/skr3178/Flow_matching"><span class="papertitle">Flow Matching</span></a>
+        <br><a href="https://github.com/skr3178/Flow_matching">GitHub Repository</a>
+        <p></p>
+        <p>Implementation of flow matching for generative modeling. Covers probability paths, vector fields, and ODE-based inference for continuous normalizing flows.</p>
+      </td>
+    </tr>
+
+    <tr onmouseout="so101_isaacsim_stop()" onmouseover="so101_isaacsim_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='so101_isaacsim_image'><img src='https://raw.githubusercontent.com/skr3178/SO101-IsaacSim/main/rl-video-step-1200.gif' width="160"></div>
+          <img src='https://raw.githubusercontent.com/skr3178/SO101-IsaacSim/main/rl-video-step-1200.gif' width="160" onerror="this.style.display='none';">
+        </div>
+        <script type="text/javascript">
+          function so101_isaacsim_start() { document.getElementById('so101_isaacsim_image').style.opacity = "1"; }
+          function so101_isaacsim_stop() { document.getElementById('so101_isaacsim_image').style.opacity = "0"; }
+          so101_isaacsim_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://github.com/skr3178/SO101-IsaacSim"><span class="papertitle">SO101 IsaacSim - Robot Manipulation in Isaac Lab</span></a>
+        <br><a href="https://github.com/skr3178/SO101-IsaacSim">GitHub Repository</a>
+        <p></p>
+        <p>Reinforcement learning for SO101 robotic arm in NVIDIA Isaac Lab. Custom SO101 stacking cubes task created from scratch with GPU-accelerated parallel environments for training manipulation policies.</p>
+      </td>
+    </tr>
+
+    <tr onmouseout="ros2_nav_stop()" onmouseover="ros2_nav_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='ros2_nav_image'><img src='https://raw.githubusercontent.com/skr3178/ros2_nav/main/cost_map.png' width="160"></div>
+          <img src='https://raw.githubusercontent.com/skr3178/ros2_nav/main/cost_map.png' width="160" onerror="this.style.display='none';">
+        </div>
+        <script type="text/javascript">
+          function ros2_nav_start() {
+            document.getElementById('ros2_nav_image').style.opacity = "1";
+          }
+
+          function ros2_nav_stop() {
+            document.getElementById('ros2_nav_image').style.opacity = "0";
+          }
+          ros2_nav_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://github.com/skr3178/ros2_nav">
+          <span class="papertitle">ros2_nav</span>
+        </a>
+        <br>
+        <a href="https://github.com/skr3178/ros2_nav">GitHub Repository</a>
+        <p></p>
+        <p>
+This repository contains projects and exercises for learning ROS2 Navigation Stack (Nav2) using TurtleBot3 in Gazebo simulation. The course covers SLAM (Simultaneous Localization and Mapping), autonomous navigation, and the complete Nav2 stack implementation.
+        </p>
+      </td>
+    </tr>
+
+    <tr onmouseout="hand_landmarker_ios_stop()" onmouseover="hand_landmarker_ios_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='hand_landmarker_ios_image'><img src='https://raw.githubusercontent.com/skr3178/hand-landmarker-ios/main/Gemini_Generated_Image_x87a7wx87a7wx87a.png' width="160"></div>
+          <img src='https://raw.githubusercontent.com/skr3178/hand-landmarker-ios/main/Gemini_Generated_Image_x87a7wx87a7wx87a.png' width="160" onerror="this.style.display='none';">
+        </div>
+        <script type="text/javascript">
+          function hand_landmarker_ios_start() {
+            document.getElementById('hand_landmarker_ios_image').style.opacity = "1";
+          }
+
+          function hand_landmarker_ios_stop() {
+            document.getElementById('hand_landmarker_ios_image').style.opacity = "0";
+          }
+          hand_landmarker_ios_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://github.com/skr3178/hand-landmarker-ios">
+          <span class="papertitle">hand-landmarker-ios</span>
+        </a>
+        <br>
+        <a href="https://github.com/skr3178/hand-landmarker-ios">GitHub Repository</a>
+        <p></p>
+        <p>
+Fine-tune the model on YouTube videos that show first-person hand movements → extract the motion data from them → refine it in Blender → retarget it for specific hand URDF models.
+        </p>
+      </td>
+    </tr>
+
+    <tr onmouseout="berkeley_humanoid_lite2_stop()" onmouseover="berkeley_humanoid_lite2_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='berkeley_humanoid_lite2_image'><img src='https://raw.githubusercontent.com/skr3178/Berkeley-Humanoid-Lite2/main/DOF_Biped.png' width="160"></div>
+          <img src='https://raw.githubusercontent.com/skr3178/Berkeley-Humanoid-Lite2/main/DOF_Biped.png' width="160" onerror="this.style.display='none';">
+        </div>
+        <script type="text/javascript">
+          function berkeley_humanoid_lite2_start() {
+            document.getElementById('berkeley_humanoid_lite2_image').style.opacity = "1";
+          }
+
+          function berkeley_humanoid_lite2_stop() {
+            document.getElementById('berkeley_humanoid_lite2_image').style.opacity = "0";
+          }
+          berkeley_humanoid_lite2_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://github.com/skr3178/Berkeley-Humanoid-Lite2">
+          <span class="papertitle">Berkeley-Humanoid-Lite2</span>
+        </a>
+        <br>
+        <a href="https://github.com/skr3178/Berkeley-Humanoid-Lite2">GitHub Repository</a>
+        <p></p>
+        <p>
+First lets review the degrees of freedom and comparison: - Berkeley Humanoid doesn't have fingers which can be controlled. - Cost is estimated as $4.9K
+        </p>
+      </td>
+    </tr>
+
+    <tr onmouseout="gym_hil_stop()" onmouseover="gym_hil_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='gym_hil_image'><img src='https://raw.githubusercontent.com/skr3178/gym-hil/main/gym-hil.gif' width="160"></div>
+          <img src='https://raw.githubusercontent.com/skr3178/gym-hil/main/gym-hil.gif' width="160" onerror="this.style.display='none';">
+        </div>
+        <script type="text/javascript">
+          function gym_hil_start() {
+            document.getElementById('gym_hil_image').style.opacity = "1";
+          }
+
+          function gym_hil_stop() {
+            document.getElementById('gym_hil_image').style.opacity = "0";
+          }
+          gym_hil_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://github.com/skr3178/gym-hil">
+          <span class="papertitle">gym-hil</span>
+        </a>
+        <br>
+        <a href="https://github.com/skr3178/gym-hil">GitHub Repository</a>
+        <p></p>
+        <p>
+A collection of gymnasium environments for Human-In-the-Loop (HIL) reinforcement learning, compatible with Hugging Face's LeRobot codebase.
+        </p>
+      </td>
+    </tr>
+
+    <tr onmouseout="smolvla_stop()" onmouseover="smolvla_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='smolvla_image'><img src='https://img.shields.io/badge/VLA-Model-purple' width="160"></div>
+          <img src='https://img.shields.io/badge/VLA-Model-purple' width="160" onerror="this.style.display='none';">
+        </div>
+        <script type="text/javascript">
+          function smolvla_start() { document.getElementById('smolvla_image').style.opacity = "1"; }
+          function smolvla_stop() { document.getElementById('smolvla_image').style.opacity = "0"; }
+          smolvla_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://github.com/skr3178/SmolVLA"><span class="papertitle">SmolVLA: Small Vision-Language-Action Model</span></a>
+        <br><a href="https://github.com/skr3178/SmolVLA">GitHub Repository</a>
+        <p></p>
+        <p>Compact vision-language-action model combining multimodal understanding with robotic control. Built on LeRobot framework for efficient robot policy learning with visual perception.</p>
+      </td>
+    </tr>
+
+    <tr onmouseout="lerobot_stop()" onmouseover="lerobot_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='lerobot_image'><img src='https://raw.githubusercontent.com/skr3178/lerobot/main/image.png' width="160"></div>
+          <img src='https://raw.githubusercontent.com/skr3178/lerobot/main/image.png' width="160" onerror="this.style.display='none';">
+        </div>
+        <script type="text/javascript">
+          function lerobot_start() {
+            document.getElementById('lerobot_image').style.opacity = "1";
+          }
+
+          function lerobot_stop() {
+            document.getElementById('lerobot_image').style.opacity = "0";
+          }
+          lerobot_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://github.com/skr3178/lerobot">
+          <span class="papertitle">lerobot</span>
+        </a>
+        <br>
+        <a href="https://github.com/skr3178/lerobot">GitHub Repository</a>
+        <p></p>
+        <p>
+This repository contains the LeRobot framework along with the SVLA SO101 pick-and-place dataset for robot learning.
+        </p>
+      </td>
+    </tr>
+
+    <tr onmouseout="eureka_stop()" onmouseover="eureka_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='eureka_image'><img src='https://img.shields.io/badge/ICLR-2024-blue' width="160"></div>
+          <img src='https://img.shields.io/badge/ICLR-2024-blue' width="160" onerror="this.style.display='none';">
+        </div>
+        <script type="text/javascript">
+          function eureka_start() { document.getElementById('eureka_image').style.opacity = "1"; }
+          function eureka_stop() { document.getElementById('eureka_image').style.opacity = "0"; }
+          eureka_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://github.com/skr3178/Eureka"><span class="papertitle">Eureka: Human-Level Reward Design via LLMs</span></a>
+        <br><a href="https://github.com/skr3178/Eureka">GitHub Repository</a>
+        <p></p>
+        <p>ICLR 2024 - Uses large language models to automatically generate reward functions for reinforcement learning. Achieves human-level performance on dexterous manipulation tasks in Isaac Gym.</p>
+      </td>
+    </tr>
+
+    <tr onmouseout="openpi_stop()" onmouseover="openpi_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='openpi_image'><img src='https://raw.githubusercontent.com/skr3178/openpi/main/images/VLA-gen2.png' width="160"></div>
+          <img src='https://raw.githubusercontent.com/skr3178/openpi/main/images/VLA-gen2.png' width="160" onerror="this.style.display='none';">
+        </div>
+        <script type="text/javascript">
+          function openpi_start() { document.getElementById('openpi_image').style.opacity = "1"; }
+          function openpi_stop() { document.getElementById('openpi_image').style.opacity = "0"; }
+          openpi_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://github.com/skr3178/openpi"><span class="papertitle">OpenPI: Vision-Language-Action Model</span></a>
+        <br><a href="https://github.com/skr3178/openpi">GitHub Repository</a>
+        <p></p>
+        <p>Fork of Physical Intelligence's OpenPI with flow matching for robot policy learning. Vision-language-action model with continuous action generation using conditional flow matching for high-frequency control.</p>
+      </td>
+    </tr>
+
+    <tr onmouseout="miku_motion_stop()" onmouseover="miku_motion_start()">
+      <td style="padding:16px;width:20%;vertical-align:middle">
+        <div class="one">
+          <div class="two" id='miku_motion_image'><img src='https://raw.githubusercontent.com/skr3178/MikuMotionTools/add-gmr/motion_retargeted_H1.gif' width="160"></div>
+          <img src='https://raw.githubusercontent.com/skr3178/MikuMotionTools/add-gmr/motion_retargeted_H1.gif' width="160" onerror="this.style.display='none';">
+        </div>
+        <script type="text/javascript">
+          function miku_motion_start() { document.getElementById('miku_motion_image').style.opacity = "1"; }
+          function miku_motion_stop() { document.getElementById('miku_motion_image').style.opacity = "0"; }
+          miku_motion_stop()
+        </script>
+      </td>
+      <td style="padding:8px;width:80%;vertical-align:middle">
+        <a href="https://github.com/skr3178/MikuMotionTools"><span class="papertitle">MikuMotionTools</span></a>
+        <br><a href="https://github.com/skr3178/MikuMotionTools">GitHub Repository</a>
+        <p></p>
+        <p>Tools for converting MMD (MikuMikuDance) motions to robot armature format for Isaac Lab RL training. Includes motion extraction from Blender, inverse kinematics retargeting to robots like Unitree G1/H1.</p>
+      </td>
+    </tr>
 
     <tr onmouseout="asap_stop()" onmouseover="asap_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
@@ -105,36 +604,6 @@ ASAP: Aligning Simulation and Real-World Physics for
         <p></p>
         <p>
 Robotic hands are often very expensive and not so expressive. More dexterous often needs cables and deported actuators in forearm i.e..
-        </p>
-      </td>
-    </tr>
-
-    <tr onmouseout="berkeley_humanoid_lite2_stop()" onmouseover="berkeley_humanoid_lite2_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='berkeley_humanoid_lite2_image'><img src='https://raw.githubusercontent.com/skr3178/Berkeley-Humanoid-Lite2/main/DOF_Biped.png' width="160"></div>
-          <img src='https://raw.githubusercontent.com/skr3178/Berkeley-Humanoid-Lite2/main/DOF_Biped.png' width="160" onerror="this.style.display='none';">
-        </div>
-        <script type="text/javascript">
-          function berkeley_humanoid_lite2_start() {
-            document.getElementById('berkeley_humanoid_lite2_image').style.opacity = "1";
-          }
-
-          function berkeley_humanoid_lite2_stop() {
-            document.getElementById('berkeley_humanoid_lite2_image').style.opacity = "0";
-          }
-          berkeley_humanoid_lite2_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/skr3178/Berkeley-Humanoid-Lite2">
-          <span class="papertitle">Berkeley-Humanoid-Lite2</span>
-        </a>
-        <br>
-        <a href="https://github.com/skr3178/Berkeley-Humanoid-Lite2">GitHub Repository</a>
-        <p></p>
-        <p>
-First lets review the degrees of freedom and comparison: - Berkeley Humanoid doesn't have fingers which can be controlled. - Cost is estimated as $4.9K
         </p>
       </td>
     </tr>
@@ -229,36 +698,6 @@ Welcome! This repository contains the code for the paper "Geometric Retargeting:
       </td>
     </tr>
 
-    <tr onmouseout="so101_isaacsim_stop()" onmouseover="so101_isaacsim_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='so101_isaacsim_image'><img src='https://raw.githubusercontent.com/skr3178/SO101-IsaacSim/main/videos_collage.gif' width="160"></div>
-          <img src='https://raw.githubusercontent.com/skr3178/SO101-IsaacSim/main/videos_collage.gif' width="160" onerror="this.style.display='none';">
-        </div>
-        <script type="text/javascript">
-          function so101_isaacsim_start() {
-            document.getElementById('so101_isaacsim_image').style.opacity = "1";
-          }
-
-          function so101_isaacsim_stop() {
-            document.getElementById('so101_isaacsim_image').style.opacity = "0";
-          }
-          so101_isaacsim_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/skr3178/SO101-IsaacSim">
-          <span class="papertitle">SO101-IsaacSim</span>
-        </a>
-        <br>
-        <a href="https://github.com/skr3178/SO101-IsaacSim">GitHub Repository</a>
-        <p></p>
-        <p>
-python3 scripts/reinforcement_learning/rl_games/train.py --task=Isaac-Cartpole-Direct-v0
-        </p>
-      </td>
-    </tr>
-
     <tr onmouseout="disco_rl_stop()" onmouseover="disco_rl_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
@@ -285,66 +724,6 @@ python3 scripts/reinforcement_learning/rl_games/train.py --task=Isaac-Cartpole-D
         <p></p>
         <p>
 This repository contains accompanying code for the "Discovering State-of-the-art Reinforcement Learning Algorithms" Nature publication.
-        </p>
-      </td>
-    </tr>
-
-    <tr onmouseout="gym_hil_stop()" onmouseover="gym_hil_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='gym_hil_image'><img src='https://raw.githubusercontent.com/skr3178/gym-hil/main/gym-hil.gif' width="160"></div>
-          <img src='https://raw.githubusercontent.com/skr3178/gym-hil/main/gym-hil.gif' width="160" onerror="this.style.display='none';">
-        </div>
-        <script type="text/javascript">
-          function gym_hil_start() {
-            document.getElementById('gym_hil_image').style.opacity = "1";
-          }
-
-          function gym_hil_stop() {
-            document.getElementById('gym_hil_image').style.opacity = "0";
-          }
-          gym_hil_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/skr3178/gym-hil">
-          <span class="papertitle">gym-hil</span>
-        </a>
-        <br>
-        <a href="https://github.com/skr3178/gym-hil">GitHub Repository</a>
-        <p></p>
-        <p>
-A collection of gymnasium environments for Human-In-the-Loop (HIL) reinforcement learning, compatible with Hugging Face's LeRobot codebase.
-        </p>
-      </td>
-    </tr>
-
-    <tr onmouseout="hand_landmarker_ios_stop()" onmouseover="hand_landmarker_ios_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='hand_landmarker_ios_image'><img src='https://raw.githubusercontent.com/skr3178/hand-landmarker-ios/main/Gemini_Generated_Image_x87a7wx87a7wx87a.png' width="160"></div>
-          <img src='https://raw.githubusercontent.com/skr3178/hand-landmarker-ios/main/Gemini_Generated_Image_x87a7wx87a7wx87a.png' width="160" onerror="this.style.display='none';">
-        </div>
-        <script type="text/javascript">
-          function hand_landmarker_ios_start() {
-            document.getElementById('hand_landmarker_ios_image').style.opacity = "1";
-          }
-
-          function hand_landmarker_ios_stop() {
-            document.getElementById('hand_landmarker_ios_image').style.opacity = "0";
-          }
-          hand_landmarker_ios_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/skr3178/hand-landmarker-ios">
-          <span class="papertitle">hand-landmarker-ios</span>
-        </a>
-        <br>
-        <a href="https://github.com/skr3178/hand-landmarker-ios">GitHub Repository</a>
-        <p></p>
-        <p>
-Fine-tune the model on YouTube videos that show first-person hand movements → extract the motion data from them → refine it in Blender → retarget it for specific hand URDF models.
         </p>
       </td>
     </tr>
@@ -439,36 +818,6 @@ Isaac Launchable offers a simplified approach to installing and using Isaac Lab 
       </td>
     </tr>
 
-    <tr onmouseout="lerobot_stop()" onmouseover="lerobot_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='lerobot_image'><img src='https://raw.githubusercontent.com/skr3178/lerobot/main/image.png' width="160"></div>
-          <img src='https://raw.githubusercontent.com/skr3178/lerobot/main/image.png' width="160" onerror="this.style.display='none';">
-        </div>
-        <script type="text/javascript">
-          function lerobot_start() {
-            document.getElementById('lerobot_image').style.opacity = "1";
-          }
-
-          function lerobot_stop() {
-            document.getElementById('lerobot_image').style.opacity = "0";
-          }
-          lerobot_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/skr3178/lerobot">
-          <span class="papertitle">lerobot</span>
-        </a>
-        <br>
-        <a href="https://github.com/skr3178/lerobot">GitHub Repository</a>
-        <p></p>
-        <p>
-This repository contains the LeRobot framework along with the SVLA SO101 pick-and-place dataset for robot learning.
-        </p>
-      </td>
-    </tr>
-
     <tr onmouseout="lerobot_old_stop()" onmouseover="lerobot_old_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
@@ -498,388 +847,7 @@ Meet HopeJR – A humanoid robot arm and hand for dexterous manipulation! Contro
         </p>
       </td>
     </tr>
-
-    <tr onmouseout="ros2_nav_stop()" onmouseover="ros2_nav_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='ros2_nav_image'><img src='https://raw.githubusercontent.com/skr3178/ros2_nav/main/cost_map.png' width="160"></div>
-          <img src='https://raw.githubusercontent.com/skr3178/ros2_nav/main/cost_map.png' width="160" onerror="this.style.display='none';">
-        </div>
-        <script type="text/javascript">
-          function ros2_nav_start() {
-            document.getElementById('ros2_nav_image').style.opacity = "1";
-          }
-
-          function ros2_nav_stop() {
-            document.getElementById('ros2_nav_image').style.opacity = "0";
-          }
-          ros2_nav_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/skr3178/ros2_nav">
-          <span class="papertitle">ros2_nav</span>
-        </a>
-        <br>
-        <a href="https://github.com/skr3178/ros2_nav">GitHub Repository</a>
-        <p></p>
-        <p>
-This repository contains projects and exercises for learning ROS2 Navigation Stack (Nav2) using TurtleBot3 in Gazebo simulation. The course covers SLAM (Simultaneous Localization and Mapping), autonomous navigation, and the complete Nav2 stack implementation.
-        </p>
-      </td>
-    </tr>
-
-    <tr onmouseout="action100m_stop()" onmouseover="action100m_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='action100m_image'><img src='https://raw.githubusercontent.com/skr3178/ACTION100M/main/action100m.jpg' width="160"></div>
-          <img src='https://raw.githubusercontent.com/skr3178/ACTION100M/main/action100m.jpg' width="160" onerror="this.style.display='none';">
-        </div>
-        <script type="text/javascript">
-          function action100m_start() {
-            document.getElementById('action100m_image').style.opacity = "1";
-          }
-
-          function action100m_stop() {
-            document.getElementById('action100m_image').style.opacity = "0";
-          }
-          action100m_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/skr3178/ACTION100M">
-          <span class="papertitle">ACTION100M</span>
-        </a>
-        <br>
-        <a href="https://github.com/skr3178/ACTION100M">GitHub Repository</a>
-        <p></p>
-        <p>
-          Implementation of the Action100M video processing pipeline for generating hierarchical video action annotations. Uses V-JEPA 2 for temporal segmentation and Qwen3-VL for caption generation.
-        </p>
-      </td>
-    </tr>
-
-    <tr onmouseout="humanoid_world_model_stop()" onmouseover="humanoid_world_model_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='humanoid_world_model_image'><img src='https://raw.githubusercontent.com/skr3178/Humanoid_world_model/main/videos/debug_flowhwm_ckpt24000/sample_0/comparison.gif' width="160"></div>
-          <img src='https://raw.githubusercontent.com/skr3178/Humanoid_world_model/main/videos/debug_flowhwm_ckpt24000/sample_0/comparison.gif' width="160" onerror="this.style.display='none';">
-        </div>
-        <script type="text/javascript">
-          function humanoid_world_model_start() {
-            document.getElementById('humanoid_world_model_image').style.opacity = "1";
-          }
-
-          function humanoid_world_model_stop() {
-            document.getElementById('humanoid_world_model_image').style.opacity = "0";
-          }
-          humanoid_world_model_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/skr3178/Humanoid_world_model">
-          <span class="papertitle">Humanoid World Models</span>
-        </a>
-        <br>
-        <a href="https://github.com/skr3178/Humanoid_world_model">GitHub Repository</a>
-        <p></p>
-        <p>
-          Implementation of Humanoid World Models: Open World Foundation Models for Humanoid Robotics. Training world models for humanoid robot control and simulation.
-        </p>
-      </td>
-    </tr>
-
-    <tr onmouseout="copilot4d_stop()" onmouseover="copilot4d_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='copilot4d_image'><img src='https://raw.githubusercontent.com/skr3178/copilot4D/main/assets/readme_images/comparison.gif' width="160"></div>
-          <img src='https://raw.githubusercontent.com/skr3178/copilot4D/main/assets/readme_images/comparison.gif' width="160" onerror="this.style.display='none';">
-        </div>
-        <script type="text/javascript">
-          function copilot4d_start() {
-            document.getElementById('copilot4d_image').style.opacity = "1";
-          }
-
-          function copilot4d_stop() {
-            document.getElementById('copilot4d_image').style.opacity = "0";
-          }
-          copilot4d_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/skr3178/copilot4d">
-          <span class="papertitle">Copilot4D</span>
-        </a>
-        <br>
-        <a href="https://github.com/skr3178/copilot4d">GitHub Repository</a>
-        <p></p>
-        <p>
-          Implementation of Copilot4D: Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion. A world model approach for self-driving vehicles.
-        </p>
-      </td>
-    </tr>
-
-    <tr onmouseout="dreamerv4_stop()" onmouseover="dreamerv4_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='dreamerv4_image'><img src='https://raw.githubusercontent.com/skr3178/DreamerV4/pretrained_tokenizer/videos/phase1_latest_comparisons/reconstruction_1.gif' width="160"></div>
-          <img src='https://raw.githubusercontent.com/skr3178/DreamerV4/pretrained_tokenizer/videos/phase1_latest_comparisons/reconstruction_1.gif' width="160" onerror="this.style.display='none';">
-        </div>
-        <script type="text/javascript">
-          function dreamerv4_start() { document.getElementById('dreamerv4_image').style.opacity = "1"; }
-          function dreamerv4_stop() { document.getElementById('dreamerv4_image').style.opacity = "0"; }
-          dreamerv4_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/skr3178/DreamerV4"><span class="papertitle">DreamerV4</span></a>
-        <br><a href="https://github.com/skr3178/DreamerV4">GitHub Repository</a>
-        <p></p>
-        <p>Implementation of DreamerV4: Training Agents Inside of Scalable World Models. World model architecture for reinforcement learning with video tokenizer and dynamics prediction.</p>
-      </td>
-    </tr>
-
-    <tr onmouseout="genie_google_stop()" onmouseover="genie_google_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='genie_google_image'><img src='https://raw.githubusercontent.com/skr3178/Genie_google/main/evaluations/dynamics/long_video/dynamics_comparison_step_7000.gif' width="160"></div>
-          <img src='https://raw.githubusercontent.com/skr3178/Genie_google/main/evaluations/dynamics/long_video/dynamics_comparison_step_7000.gif' width="160" onerror="this.style.display='none';">
-        </div>
-        <script type="text/javascript">
-          function genie_google_start() { document.getElementById('genie_google_image').style.opacity = "1"; }
-          function genie_google_stop() { document.getElementById('genie_google_image').style.opacity = "0"; }
-          genie_google_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/skr3178/Genie_google"><span class="papertitle">Genie: Generative Interactive Environments</span></a>
-        <br><a href="https://github.com/skr3178/Genie_google">GitHub Repository</a>
-        <p></p>
-        <p>Implementation of Genie world model - a generative video model that learns latent actions from unlabeled video data. Includes video tokenizer, latent action model, and dynamics model.</p>
-      </td>
-    </tr>
-
-    <tr onmouseout="reconstruction_3d_stop()" onmouseover="reconstruction_3d_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='reconstruction_3d_image'><img src='https://raw.githubusercontent.com/skr3178/3D-Reconstruction-LingBot-World/master/Screenshot%202026-03-05%20at%205.38.41%E2%80%AFPM.png' width="160"></div>
-          <img src='https://raw.githubusercontent.com/skr3178/3D-Reconstruction-LingBot-World/master/Screenshot%202026-03-05%20at%205.38.41%E2%80%AFPM.png' width="160" onerror="this.style.display='none';">
-        </div>
-        <script type="text/javascript">
-          function reconstruction_3d_start() { document.getElementById('reconstruction_3d_image').style.opacity = "1"; }
-          function reconstruction_3d_stop() { document.getElementById('reconstruction_3d_image').style.opacity = "0"; }
-          reconstruction_3d_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/skr3178/3D-Reconstruction-LingBot-World"><span class="papertitle">3D Reconstruction - LingBot World</span></a>
-        <br><a href="https://github.com/skr3178/3D-Reconstruction-LingBot-World">GitHub Repository</a>
-        <p></p>
-        <p>Recreation of the 3D reconstruction pipeline from the LingBot world model paper. Generates detailed 3D point clouds from video sequences using VGGT.</p>
-      </td>
-    </tr>
-
-    <tr onmouseout="topodiffuser_stop()" onmouseover="topodiffuser_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='topodiffuser_image'><img src='https://raw.githubusercontent.com/skr3178/TopoDiffuser/main/images/diffusion_trajectory.png' width="160"></div>
-          <img src='https://raw.githubusercontent.com/skr3178/TopoDiffuser/main/images/diffusion_trajectory.png' width="160" onerror="this.style.display='none';">
-        </div>
-        <script type="text/javascript">
-          function topodiffuser_start() { document.getElementById('topodiffuser_image').style.opacity = "1"; }
-          function topodiffuser_stop() { document.getElementById('topodiffuser_image').style.opacity = "0"; }
-          topodiffuser_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/skr3178/TopoDiffuser"><span class="papertitle">TopoDiffuser</span></a>
-        <br><a href="https://github.com/skr3178/TopoDiffuser">GitHub Repository</a>
-        <p></p>
-        <p>Diffusion-based trajectory prediction using LiDAR data. Trained on KITTI dataset with encoder and diffusion model for autonomous driving trajectory forecasting.</p>
-      </td>
-    </tr>
-
-    <tr onmouseout="flow_matching_stop()" onmouseover="flow_matching_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='flow_matching_image'><img src='https://colab.research.google.com/assets/colab-badge.svg' width="160"></div>
-          <img src='https://colab.research.google.com/assets/colab-badge.svg' width="160" onerror="this.style.display='none';">
-        </div>
-        <script type="text/javascript">
-          function flow_matching_start() { document.getElementById('flow_matching_image').style.opacity = "1"; }
-          function flow_matching_stop() { document.getElementById('flow_matching_image').style.opacity = "0"; }
-          flow_matching_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/skr3178/Flow_matching"><span class="papertitle">Flow Matching</span></a>
-        <br><a href="https://github.com/skr3178/Flow_matching">GitHub Repository</a>
-        <p></p>
-        <p>Implementation of flow matching for generative modeling. Covers probability paths, vector fields, and ODE-based inference for continuous normalizing flows.</p>
-      </td>
-    </tr>
-
-    <tr onmouseout="piano_stop()" onmouseover="piano_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='piano_image'><img src='https://raw.githubusercontent.com/skr3178/piano/main/midi_playback_20251109_152152.gif' width="160"></div>
-          <img src='https://raw.githubusercontent.com/skr3178/piano/main/midi_playback_20251109_152152.gif' width="160" onerror="this.style.display='none';">
-        </div>
-        <script type="text/javascript">
-          function piano_start() { document.getElementById('piano_image').style.opacity = "1"; }
-          function piano_stop() { document.getElementById('piano_image').style.opacity = "0"; }
-          piano_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/skr3178/piano"><span class="papertitle">Piano - RoboPianist in Isaac Sim</span></a>
-        <br><a href="https://github.com/skr3178/piano">GitHub Repository</a>
-        <p></p>
-        <p>Robotic piano playing simulation in NVIDIA Isaac Sim with dexterous hands. Features MIDI playback, collision handling, and reinforcement learning for piano performance.</p>
-      </td>
-    </tr>
-
-    <tr onmouseout="so101_isaacsim_stop()" onmouseover="so101_isaacsim_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='so101_isaacsim_image'><img src='https://raw.githubusercontent.com/skr3178/SO101-IsaacSim/main/rl-video-step-1200.gif' width="160"></div>
-          <img src='https://raw.githubusercontent.com/skr3178/SO101-IsaacSim/main/rl-video-step-1200.gif' width="160" onerror="this.style.display='none';">
-        </div>
-        <script type="text/javascript">
-          function so101_isaacsim_start() { document.getElementById('so101_isaacsim_image').style.opacity = "1"; }
-          function so101_isaacsim_stop() { document.getElementById('so101_isaacsim_image').style.opacity = "0"; }
-          so101_isaacsim_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/skr3178/SO101-IsaacSim"><span class="papertitle">SO101 IsaacSim - Robot Manipulation in Isaac Lab</span></a>
-        <br><a href="https://github.com/skr3178/SO101-IsaacSim">GitHub Repository</a>
-        <p></p>
-        <p>Reinforcement learning for SO101 robotic arm in NVIDIA Isaac Lab. Custom SO101 stacking cubes task created from scratch with GPU-accelerated parallel environments for training manipulation policies.</p>
-      </td>
-    </tr>
-
-    <tr onmouseout="humanoid_twin_stop()" onmouseover="humanoid_twin_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='humanoid_twin_image'><img src='https://raw.githubusercontent.com/skr3178/humanoid-twin-world-model/master/assets/browser-split-screen-demo.gif' width="160"></div>
-          <img src='https://raw.githubusercontent.com/skr3178/humanoid-twin-world-model/master/assets/browser-split-screen-demo.gif' width="160" onerror="this.style.display='none';">
-        </div>
-        <script type="text/javascript">
-          function humanoid_twin_start() { document.getElementById('humanoid_twin_image').style.opacity = "1"; }
-          function humanoid_twin_stop() { document.getElementById('humanoid_twin_image').style.opacity = "0"; }
-          humanoid_twin_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/skr3178/humanoid-twin-world-model"><span class="papertitle">Humanoid Twin World Model</span></a>
-        <br><a href="https://github.com/skr3178/humanoid-twin-world-model">GitHub Repository</a>
-        <p></p>
-        <p>Digital twin of Unitree G1 humanoid robot in a 3D Gaussian Splatting scene. Browser-based split-screen viewer with keyboard control for humanoid locomotion in photorealistic environments.</p>
-      </td>
-    </tr>
-
-    <tr onmouseout="eureka_stop()" onmouseover="eureka_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='eureka_image'><img src='https://img.shields.io/badge/ICLR-2024-blue' width="160"></div>
-          <img src='https://img.shields.io/badge/ICLR-2024-blue' width="160" onerror="this.style.display='none';">
-        </div>
-        <script type="text/javascript">
-          function eureka_start() { document.getElementById('eureka_image').style.opacity = "1"; }
-          function eureka_stop() { document.getElementById('eureka_image').style.opacity = "0"; }
-          eureka_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/skr3178/Eureka"><span class="papertitle">Eureka: Human-Level Reward Design via LLMs</span></a>
-        <br><a href="https://github.com/skr3178/Eureka">GitHub Repository</a>
-        <p></p>
-        <p>ICLR 2024 - Uses large language models to automatically generate reward functions for reinforcement learning. Achieves human-level performance on dexterous manipulation tasks in Isaac Gym.</p>
-      </td>
-    </tr>
-
-    <tr onmouseout="autoresearch_stop()" onmouseover="autoresearch_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='autoresearch_image'><img src='https://raw.githubusercontent.com/skr3178/Autoresearch_Paper/master/progress.png' width="160"></div>
-          <img src='https://raw.githubusercontent.com/skr3178/Autoresearch_Paper/master/progress.png' width="160" onerror="this.style.display='none';">
-        </div>
-        <script type="text/javascript">
-          function autoresearch_start() { document.getElementById('autoresearch_image').style.opacity = "1"; }
-          function autoresearch_stop() { document.getElementById('autoresearch_image').style.opacity = "0"; }
-          autoresearch_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/skr3178/Autoresearch_Paper"><span class="papertitle">Autoresearch Paper</span></a>
-        <br><a href="https://github.com/skr3178/Autoresearch_Paper">GitHub Repository</a>
-        <p></p>
-        <p>Autonomous agent framework that implements research papers from PDF to working code. 6-phase pipeline: paper extraction, contract definition, data proof, component implementation, integration, and benchmarking.</p>
-      </td>
-    </tr>
-
-    <tr onmouseout="openpi_stop()" onmouseover="openpi_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='openpi_image'><img src='https://raw.githubusercontent.com/skr3178/openpi/main/images/VLA-gen2.png' width="160"></div>
-          <img src='https://raw.githubusercontent.com/skr3178/openpi/main/images/VLA-gen2.png' width="160" onerror="this.style.display='none';">
-        </div>
-        <script type="text/javascript">
-          function openpi_start() { document.getElementById('openpi_image').style.opacity = "1"; }
-          function openpi_stop() { document.getElementById('openpi_image').style.opacity = "0"; }
-          openpi_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/skr3178/openpi"><span class="papertitle">OpenPI: Vision-Language-Action Model</span></a>
-        <br><a href="https://github.com/skr3178/openpi">GitHub Repository</a>
-        <p></p>
-        <p>Fork of Physical Intelligence's OpenPI with flow matching for robot policy learning. Vision-language-action model with continuous action generation using conditional flow matching for high-frequency control.</p>
-      </td>
-    </tr>
-
-    <tr onmouseout="miku_motion_stop()" onmouseover="miku_motion_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='miku_motion_image'><img src='https://raw.githubusercontent.com/skr3178/MikuMotionTools/add-gmr/motion_retargeted_H1.gif' width="160"></div>
-          <img src='https://raw.githubusercontent.com/skr3178/MikuMotionTools/add-gmr/motion_retargeted_H1.gif' width="160" onerror="this.style.display='none';">
-        </div>
-        <script type="text/javascript">
-          function miku_motion_start() { document.getElementById('miku_motion_image').style.opacity = "1"; }
-          function miku_motion_stop() { document.getElementById('miku_motion_image').style.opacity = "0"; }
-          miku_motion_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/skr3178/MikuMotionTools"><span class="papertitle">MikuMotionTools</span></a>
-        <br><a href="https://github.com/skr3178/MikuMotionTools">GitHub Repository</a>
-        <p></p>
-        <p>Tools for converting MMD (MikuMikuDance) motions to robot armature format for Isaac Lab RL training. Includes motion extraction from Blender, inverse kinematics retargeting to robots like Unitree G1/H1.</p>
-      </td>
-    </tr>
-
-    <tr onmouseout="smolvla_stop()" onmouseover="smolvla_start()">
-      <td style="padding:16px;width:20%;vertical-align:middle">
-        <div class="one">
-          <div class="two" id='smolvla_image'><img src='https://img.shields.io/badge/VLA-Model-purple' width="160"></div>
-          <img src='https://img.shields.io/badge/VLA-Model-purple' width="160" onerror="this.style.display='none';">
-        </div>
-        <script type="text/javascript">
-          function smolvla_start() { document.getElementById('smolvla_image').style.opacity = "1"; }
-          function smolvla_stop() { document.getElementById('smolvla_image').style.opacity = "0"; }
-          smolvla_stop()
-        </script>
-      </td>
-      <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://github.com/skr3178/SmolVLA"><span class="papertitle">SmolVLA: Small Vision-Language-Action Model</span></a>
-        <br><a href="https://github.com/skr3178/SmolVLA">GitHub Repository</a>
-        <p></p>
-        <p>Compact vision-language-action model combining multimodal understanding with robotic control. Built on LeRobot framework for efficient robot policy learning with visual perception.</p>
-      </td>
-    </tr>
-
-            </tbody></table>
+    </tbody></table>
 
 			
 					<table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
