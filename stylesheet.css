@@ -188,3 +188,90 @@ span.highlight {
   padding-left: 16px;
   color: #555;
 }
+
+/* Dark mode toggle button */
+#dark-mode-toggle {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  background: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  padding: 0;
+  z-index: 1000;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+#dark-mode-toggle:hover {
+  border-color: #aaa;
+}
+
+/* Dark mode */
+body.dark-mode {
+  background-color: #1a1a2e;
+  color: #e0e0e0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode a {
+  color: #6cb4ee;
+}
+
+body.dark-mode a:hover,
+body.dark-mode a:focus {
+  color: #f09228;
+}
+
+body.dark-mode .project-card {
+  background: #16213e;
+  border-color: #2a2a4a;
+}
+
+body.dark-mode .project-card:hover {
+  border-color: #4a4a6a;
+}
+
+body.dark-mode .project-card-img-wrap {
+  background: #0f0f23;
+}
+
+body.dark-mode .colored-box {
+  color: #e0e0e0;
+}
+
+body.dark-mode span.highlight {
+  background-color: #3a3a1a;
+}
+
+body.dark-mode #dark-mode-toggle {
+  background: #16213e;
+  border-color: #2a2a4a;
+  color: #e0e0e0;
+}
+
+body.dark-mode .post-item {
+  border-bottom-color: #2a2a4a;
+}
+
+body.dark-mode .post-meta {
+  color: #999;
+}
+
+body.dark-mode .post-content code {
+  background: #16213e;
+}
+
+body.dark-mode .post-content pre {
+  background: #16213e;
+}
+
+body.dark-mode .post-content blockquote {
+  color: #aaa;
+  border-left-color: #6cb4ee;
+}
