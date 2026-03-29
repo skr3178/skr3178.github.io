@@ -1,0 +1,30 @@
+---
+layout: default
+title: Blog
+---
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <tr>
+    <td style="padding:16px;width:100%;vertical-align:middle">
+      <h2>Blog</h2>
+      <p>Thoughts on robotics, reinforcement learning, and embodied AI.</p>
+    </td>
+  </tr>
+</tbody></table>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <tr>
+    <td style="padding:8px;width:100%;vertical-align:middle">
+      {% for post in site.posts %}
+      <div class="post-item">
+        <a href="{{ post.url | prepend: site.baseurl }}"><span class="papertitle">{{ post.title }}</span></a>
+        <br>
+        <span class="post-meta">{{ post.date | date: "%B %d, %Y" }}</span>
+        {% if post.excerpt %}
+        <p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </td>
+  </tr>
+</tbody></table>

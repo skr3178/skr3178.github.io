@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="author" content="{{ site.author }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheet.css?v=4">
+  </head>
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <p class="name">
+                  <a href="{{ site.baseurl }}/" style="color:inherit;">skr3178</a>
+                </p>
+                <p style="text-align:left">
+                  <a href="{{ site.baseurl }}/">Home</a> &nbsp;/&nbsp;
+                  <a href="{{ site.baseurl }}/blog.html">Blog</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/skr3178">Github</a> &nbsp;/&nbsp;
+                  <a href="https://www.linkedin.com/in/sangram-kr-rout/">LinkedIn</a>
+                </p>
+              </td>
+              <td style="padding:2.5%;width:37%;max-width:37%">
+                <a href="{{ site.baseurl }}/images/IMG_3030.JPG"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="{{ site.baseurl }}/images/IMG_3030.JPG"></a>
+              </td>
+            </tr>
+          </tbody></table>
+
+          {{ content }}
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:right;font-size:small;">
+                  Website template based on <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron's website</a>.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

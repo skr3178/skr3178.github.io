@@ -1,0 +1,6 @@
+title: skr3178
+description: Robotics research and open-source projects
+author: skr3178
+url: "https://skr3178.github.io"
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
