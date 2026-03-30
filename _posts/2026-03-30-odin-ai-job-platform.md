@@ -57,14 +57,6 @@ An Alibaba-style freelance marketplace connecting clients with freelancers globa
 6. If disputed → admin resolution flow
 7. Platform takes 5–10% fee per transaction
 
-### Build phases
-
-- **Phase 1** ✅ — Foundation (auth, profiles, DB, landing page)
-- **Phase 2** — Core marketplace (project posting, freelancer profiles, proposals)
-- **Phase 3** — AI layer (matching, pricing, scoping)
-- **Phase 4** — Payments and escrow (Stripe integration, payouts)
-- **Phase 5** — Trust and polish (reviews, messaging, disputes)
-
 ---
 
 ## Why this matters
