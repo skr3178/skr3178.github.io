@@ -3,6 +3,22 @@ layout: post
 title: "TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate"
 date: 2026-03-31
 ---
+
+> **Now available as a Python package!** Install TurboQuant directly into your HuggingFace pipeline:
+>
+> ```bash
+> pip install turboquant-explained
+> ```
+>
+> ```python
+> import turboquant
+> cache = turboquant.patch_model(model, b_key=2, b_value=2)
+> ```
+>
+> 2-bit keys + values = ~8x memory reduction with attention quality within ~2.7x of the Shannon limit. [PyPI](https://pypi.org/project/turboquant-explained/) | [GitHub](https://github.com/skr3178/TurboQuant-explained)
+
+---
+
 # Implementation Details
 
 ## Overview
@@ -468,10 +484,10 @@ Stage 4 does **not** always improve coordinate-wise accuracy. It improves:
 ### Phase 3 — DBpedia 1536d (Paper Figures)
 
 ![Figure 1 — Inner-product error distribution](/assets/posts/turboquant-explained/experiments/results/phase3_dbpedia/Fig_1_error_histograms.png)
-*Fig. 1 reproduction: inner-product error histograms for TurboQuant_prod (top) and TurboQuant_mse (bottom) at b=1,2,3,4. prod remains unbiased (centered at 0); mse shows rightward shift at low bit-widths.*
+*Fig. 1 reproduction: inner-product error histograms for TurboQuant_prod (top) and TurboQuant_mse (bottom) at b=1,2,3,4. prod remains unbiased (centered at 0); mse shows rightward shift at low bit-widths.* **Passing criteria:** Both quantizers must produce roughly Gaussian error distributions, and variance must shrink with increasing bitwidth.
 
 ![Figure 2 — Error grouped by average inner product](/assets/posts/turboquant-explained/experiments/results/phase3_dbpedia/Fig_2_grouped_histograms.png)
-*Fig. 2 reproduction: inner-product error histograms at b=2, grouped by average inner product of each database vector. prod variance is constant across groups; mse variance grows with average inner product.*
+*Fig. 2 reproduction: inner-product error histograms at b=2, grouped by average inner product of each database vector. prod variance is constant across groups; mse variance grows with average inner product.* **Passing criteria (core theoretical claim):** TurboQuant_prod histogram width must stay constant across all avg IP values (variance independent of inner product magnitude); TurboQuant_mse histogram must get wider as avg IP grows. If both rows look the same, the QJL residual correction is not working.
 
 ![Figure 3 — Distortion vs bit-width](/assets/posts/turboquant-explained/experiments/results/phase3_dbpedia/Fig_3_dbpedia.png)
-*Fig. 3 reproduction: empirical D_prod and D_mse vs bit-width b=1..5 on DBpedia 1536d. Both curves lie between theoretical bounds (dashed). At b=1, TurboQuant_mse exceeds the inner-product upper bound — expected, since it is biased for inner products at low bit-widths.*
+*Fig. 3 reproduction: empirical D_prod and D_mse vs bit-width b=1..5 on DBpedia 1536d. Both curves lie between theoretical bounds (dashed). At b=1, TurboQuant_mse exceeds the inner-product upper bound — expected, since it is biased for inner products at low bit-widths.* **Passing criteria:** Empirical MSE must fall between the paper's upper and lower bounds.
