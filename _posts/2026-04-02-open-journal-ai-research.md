@@ -2,6 +2,7 @@
 layout: post
 title: "An Open-Access Journal for AI-Generated Research"
 date: 2026-04-02
+published: false
 ---
 
 ![Flow 1 — Typical Paper Publish Roadmap](/assets/posts/open-journal/flow1.png)
