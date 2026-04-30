@@ -105,14 +105,16 @@ span.highlight {
   background: #f0f0f0;
 }
 
-.project-card-img-wrap img {
+.project-card-img-wrap img,
+.project-card-img-wrap video {
   width: 100%;
   height: auto;
   display: block;
   transition: transform 0.4s ease;
 }
 
-.project-card:hover .project-card-img-wrap img {
+.project-card:hover .project-card-img-wrap img,
+.project-card:hover .project-card-img-wrap video {
   transform: scale(1.04);
 }
 
