@@ -56,6 +56,39 @@
 
     <div class="project-card">
       <div class="project-card-img-wrap">
+        <img src='images/egox_demo.gif' alt="egoX">
+      </div>
+      <div class="project-card-body">
+        <a href="https://github.com/skr3178/egoX"><span class="papertitle">egoX</span></a>
+        <br><a href="https://github.com/skr3178/egoX">GitHub</a> &nbsp;|&nbsp; <a href="https://huggingface.co/sangramrout/egoX">HuggingFace</a>
+        <p>LoRA adapter for exocentric-to-egocentric video generation, reproducing the EgoX paper on a single 24GB GPU instead of the paper's 4× H200. To fit inference on my own GPU I downscaled the video resolution and trained a rank-128 LoRA on top of the Wan2.1-I2V-14B diffusion model with Geometry-Guided Self-Attention, NF4 4-bit quantization, and 8-bit AdamW, on Ego-Exo4D.</p>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-card-img-wrap">
+        <img src='images/sensor2sensor_collage.png' alt="sensor2sensor">
+      </div>
+      <div class="project-card-body">
+        <a href="https://github.com/skr3178/sensor2sensor"><span class="papertitle">sensor2sensor</span></a>
+        <br><a href="https://github.com/skr3178/sensor2sensor">GitHub</a> &nbsp;|&nbsp; <a href="https://huggingface.co/sangramrout/sensor2sensor">HuggingFace</a>
+        <p>Minimal reimplementation of Sensor2Sensor: Cross-Embodiment Sensor Conversion for autonomous driving, trained on a single RTX 3060. Generates LiDAR point clouds from surround camera images via a DINOv3-conditioned latent diffusion model over a compact LiDAR range-image VAE, on nuScenes (held-out Chamfer distance ~2.0 m for the diffusion U-Net).</p>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-card-img-wrap">
+        <img src='https://raw.githubusercontent.com/skr3178/ENPIRE/main/docs/figure1_collaborative.png' alt="ENPIRE">
+      </div>
+      <div class="project-card-body">
+        <a href="https://github.com/skr3178/ENPIRE"><span class="papertitle">ENPIRE</span></a>
+        <br><a href="https://github.com/skr3178/ENPIRE">GitHub Repository</a>
+        <p>Simulation-based reproduction of ENPIRE's robot-policy self-improvement loop (Environment → Policy improvement → Rollout → Evaluation) on the Push-T task. Multiple Claude coding agents iteratively improve control policies in git-isolated worktrees and share recipes across a fleet — collaborative agents reached ~50% held-out success vs. 14.6% for isolated agents.</p>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-card-img-wrap">
         <img src='https://raw.githubusercontent.com/skr3178/tennis_tracking/main/side_by_side_comparison.gif' alt="Tennis Tracking">
       </div>
       <div class="project-card-body">
