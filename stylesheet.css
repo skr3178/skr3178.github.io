@@ -277,3 +277,15 @@ body.dark-mode .post-content blockquote {
   color: #aaa;
   border-left-color: #6cb4ee;
 }
+
+/* Card media: local MP4/WebP with poster fallback (see lazy-loader in index.html) */
+.card-media {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: #f0f0f0;
+}
+
+body.dark-mode .card-media {
+  background: #2a2a2a;
+}

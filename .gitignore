@@ -1,2 +1,6 @@
 _site/
 .DS_Store
+
+# Source GIFs/PNGs downloaded from project repos — kept locally as masters.
+# Only the optimized MP4/WebP output in images/opt/ is committed.
+images/projects/
