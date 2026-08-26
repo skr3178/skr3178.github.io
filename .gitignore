@@ -4,3 +4,7 @@ _site/
 # Source GIFs/PNGs downloaded from project repos — kept locally as masters.
 # Only the optimized MP4/WebP output in images/opt/ is committed.
 images/projects/
+
+# Resume sources kept locally as masters.
+# Only the published copy at pdfs/cv.pdf is committed.
+Resume/
