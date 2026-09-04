@@ -51,4 +51,4 @@ high, and the output generator spells `(* TWO STARS *)` — written as an OCaml 
 is a fitting way for Jane Street to sign it.
 
 Full writeup, extraction scripts, simulation harnesses and the ANF work are in
-[SKR_solution/](https://github.com/skr3178/Jane_Street_ASIC_puzzle/tree/main/SKR_solution).
+[SKR_solution/](https://github.com/skr3178/Jane_Street_ASIC_puzzle/tree/master/SKR_solution).
