@@ -1,0 +1,33 @@
+---
+layout: default
+title: Musings
+---
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <tr>
+    <td style="padding:16px;width:100%;vertical-align:middle">
+      <h2>Musings</h2>
+      <p>Occasional notes on things that aren't robotics.</p>
+    </td>
+  </tr>
+</tbody></table>
+
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <tr>
+    <td style="padding:8px;width:100%;vertical-align:middle">
+      {% assign musings = site.musings | sort: 'date' | reverse %}
+      {% for musing in musings %}
+      <div class="post-item">
+        <a href="{{ musing.url | prepend: site.baseurl }}"><span class="papertitle">{{ musing.title }}</span></a>
+        <br>
+        <span class="post-meta">{{ musing.date | date: "%B %d, %Y" }}</span>
+        {% if musing.excerpt %}
+        <p>{{ musing.excerpt | strip_html | truncatewords: 40 }}</p>
+        {% endif %}
+      </div>
+      {% else %}
+      <p class="post-meta">Nothing here yet.</p>
+      {% endfor %}
+    </td>
+  </tr>
+</tbody></table>
