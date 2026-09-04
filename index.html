@@ -58,6 +58,17 @@
 
     <div class="project-card">
       <div class="project-card-img-wrap">
+        <img class='card-media' src='images/opt/jane-street-asic.webp' alt="Jane Street ASIC puzzle" loading="lazy" decoding="async">
+      </div>
+      <div class="project-card-body">
+        <a href="https://github.com/skr3178/Jane_Street_ASIC_puzzle"><span class="papertitle">Jane Street ASIC Puzzle</span></a>
+        <br><a href="https://github.com/skr3178/Jane_Street_ASIC_puzzle">GitHub</a> &nbsp;|&nbsp; <a href="/blog/2026/09/04/jane-street-asic-puzzle/">Blog post</a>
+        <p>Full solution to Jane Street's "Can you reverse engineer an ASIC?" challenge — from GDSII layout to recovered intent. Extracted a 728-cell, 92-flop netlist from <code>puzzle.gds</code> with KLayout LayoutToNetlist and validated it six ways, then recovered the circuit's purpose from the netlist alone: it is a <b>two-star Star Battle checker on an 11&times;11 grid</b>, with per-row/column rules implemented as 2-bit saturating counters driven by a non-linear 122-state position counter. Recovered the 122-bit unlock key via SymbiYosys <code>cover(success)</code> BMC with bitwuzla, then confirmed on the sky130 reference models: <code>success</code> goes high and the output spells <code>(* TWO STARS *)</code>.</p>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-card-img-wrap">
         <img class='card-media' src='images/opt/dexterous-glove-card.webp' alt="Dexterous Joint Collection Glove" loading="lazy" decoding="async">
       </div>
       <div class="project-card-body">
