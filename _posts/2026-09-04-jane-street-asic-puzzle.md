@@ -9,7 +9,7 @@ hands you a `puzzle.gds` file — a physical chip layout, no source, no netlist 
 three things: recover the netlist, figure out what the circuit actually does, then use that
 understanding to find the input it is waiting for.
 
-Submissions closed today, so here is what I found. Everything below is in the repo:
+Everything below is in the repo:
 [skr3178/Jane_Street_ASIC_puzzle](https://github.com/skr3178/Jane_Street_ASIC_puzzle).
 
 ## 1. Layout to netlist
