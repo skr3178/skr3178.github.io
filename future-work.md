@@ -20,5 +20,6 @@ title: Future work
 - Write a follow-up post on TurboQuant with benchmarks
 - Open-source the AIC (AI for Industry Challenge) pipeline
 - Build a small RL benchmark suite for tendon-driven hands
+- **[LLM latent communication](https://github.com/skr3178/LLM_latent_communication)** — LLM watermarking and latent inter-agent communication: work through the Kirchenbauer and SynthID-Text reference implementations and write up the notes.
 
 </div>
