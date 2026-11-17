@@ -5,6 +5,7 @@
     <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="author" content="{{ site.author }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
     <link rel="shortcut icon" href="{{ site.baseurl }}/images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheet.css?v=4">
     <style>
@@ -30,6 +31,7 @@
                   <a href="{{ site.baseurl }}/musings/">Musings</a> &nbsp;/&nbsp;
                   <a href="{{ site.baseurl }}/ongoing-projects/">Ongoing projects</a> &nbsp;/&nbsp;
                   <a href="{{ site.baseurl }}/future-work/">Future work</a> &nbsp;/&nbsp;
+                  <a href="{{ site.baseurl }}/PhD_2027/">PhD_2027</a> &nbsp;/&nbsp;
                   <a href="https://github.com/skr3178">Github</a> &nbsp;/&nbsp;
                   <a href="https://www.linkedin.com/in/sangram-kr-rout/">LinkedIn</a>
                 </p>
