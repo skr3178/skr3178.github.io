@@ -48,7 +48,7 @@ The full report, *Lucifer-LTF: Route-Aligned Inference and Conservative Adaptati
 
 <div class="pdf-embed">
   <object data="/assets/posts/alpasim-challenge/lucifer_ai_report.pdf#view=FitH" type="application/pdf" aria-label="Lucifer AI technical report (PDF)">
-    <p>Your browser can't show the PDF here. <a href="/assets/posts/alpasim-challenge/lucifer_ai_report.pdf">Open the report (PDF, 18 pages)</a>.</p>
+    <p>Your browser can't show the PDF here. <a href="/assets/posts/alpasim-challenge/lucifer_ai_report.pdf">Open the report (PDF, 16 pages)</a>.</p>
   </object>
 </div>
 <p class="pdf-actions">
