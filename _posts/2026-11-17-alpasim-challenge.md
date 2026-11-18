@@ -6,7 +6,7 @@ date: 2026-11-17
 
 Team Lucifer AI entered the nuPlan track of the AlpaSim E2E Closed Loop Challenge 2026. Here a driving policy is scored by driving: it sees rendered camera images and plans a path, and a simulator follows that path on 10 recordings that were never released.
 
-Our last entry, lf-013, is our best by score: mean scene score 0.9494 and Policy Capability Score (PCS) 2482, with 1.36 km between at-fault incidents against 1.04 for our previous best, lf-009. On the board of 17 November (17:48 IST), our team places 5th of 57. Entries submitted before the deadline are still being scored, so this can move.
+Our last entry, lf-013, is our best by score: mean scene score 0.9494 and Policy Capability Score (PCS) 2482, with 1.36 km between at-fault incidents against 1.04 for our previous best, lf-009. On the board of 17 November (17:48 IST), our team placed 5th of 57. **Update, 18 November:** with every entry scored, lf-013's PCS is 2502, the 4th-highest Policy Capability Score of 63 teams on the public leaderboard. The board's own rank column, which orders entries by the pessimistic end of each score's range, puts us 9th. Final standings use a private evaluation set and may differ.
 
 Both entries run the host's public Latent TransFuser checkpoint from py123d_garage, and our changes are at inference. lf-009 places the model's 40, 60 and 80 m route targets along the route itself, not at straight-line distances, which misplaced them on bends. lf-013 adds a safety veto that changes the path only on bends where the plan would leave the road.
 
@@ -44,11 +44,11 @@ PCS values come from one leaderboard snapshot (17 Nov, 17:48 IST), because the s
 
 ## Technical report
 
-The full report, *Lucifer-LTF: Route-Aligned Inference and Conservative Adaptation for the AlpaSim Challenge*, covers the method, each entry and the experiment history. Its results are as of 13 November, so its PCS values differ from the 17 November snapshot above.
+The full report, *Lucifer-LTF: Route-Aligned Inference and Conservative Adaptation for the AlpaSim Challenge*, covers the method, each entry and the experiment history. This version was updated on 18 November with lf-013 and the final public board, so its PCS values differ from the 17 November snapshot above. The challenge received an earlier version on 13 November, before lf-013.
 
 <div class="pdf-embed">
   <object data="/assets/posts/alpasim-challenge/lucifer_ai_report.pdf#view=FitH" type="application/pdf" aria-label="Lucifer AI technical report (PDF)">
-    <p>Your browser can't show the PDF here. <a href="/assets/posts/alpasim-challenge/lucifer_ai_report.pdf">Open the report (PDF, 16 pages)</a>.</p>
+    <p>Your browser can't show the PDF here. <a href="/assets/posts/alpasim-challenge/lucifer_ai_report.pdf">Open the report (PDF, 18 pages)</a>.</p>
   </object>
 </div>
 <p class="pdf-actions">
