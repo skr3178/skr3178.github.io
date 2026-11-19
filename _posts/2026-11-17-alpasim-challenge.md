@@ -44,11 +44,11 @@ PCS values come from one leaderboard snapshot (17 Nov, 17:48 IST), because the s
 
 ## Technical report
 
-The full report, *Lucifer-LTF: Route-Aligned Inference and Conservative Adaptation for the AlpaSim Challenge*, covers the method, each entry and the experiment history. This version was updated on 18 November with lf-013 and the final public board, so its PCS values differ from the 17 November snapshot above. The challenge received an earlier version on 13 November, before lf-013.
+The full report, *Lucifer-LTF: Route-Aligned Inference and Conservative Adaptation for the AlpaSim Challenge*, covers the method, each entry and the experiment history. This version was updated on 18 November with lf-013 and the final public board, so its PCS values differ from the 17 November snapshot above, and reorganised on 19 November into standard paper sections (introduction, related work, method, results, limitations, conclusion) with the same numbers. The challenge received an earlier version on 13 November, before lf-013.
 
 <div class="pdf-embed">
   <object data="/assets/posts/alpasim-challenge/lucifer_ai_report.pdf#view=FitH" type="application/pdf" aria-label="Lucifer AI technical report (PDF)">
-    <p>Your browser can't show the PDF here. <a href="/assets/posts/alpasim-challenge/lucifer_ai_report.pdf">Open the report (PDF, 17 pages)</a>.</p>
+    <p>Your browser can't show the PDF here. <a href="/assets/posts/alpasim-challenge/lucifer_ai_report.pdf">Open the report (PDF, 20 pages)</a>.</p>
   </object>
 </div>
 <p class="pdf-actions">
