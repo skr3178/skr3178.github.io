@@ -62,6 +62,8 @@ Thanks to the organisers, and to the py123d_garage team for the public baseline 
 ## Links
 
 - [Technical report (PDF)](/assets/posts/alpasim-challenge/lucifer_ai_report.pdf)
+- [Code on GitHub](https://github.com/skr3178/alpasim-e2e-challenge-2026-lucifer-ai)
+- [Checkpoint on Hugging Face](https://huggingface.co/skr3178/alpasim-e2e-challenge-2026-lucifer-ai) (an unmodified copy of the py123d_garage checkpoint our entries ran, so the build still works if the original moves)
 - [Challenge page](https://huggingface.co/spaces/nvidia/AlpasimE2EClosedLoopChallenge2026)
 - [AlpaSim simulator](https://github.com/NVlabs/alpasim)
 - [py123d_garage, the base model and driver](https://github.com/kesai-labs/py123d_garage)
